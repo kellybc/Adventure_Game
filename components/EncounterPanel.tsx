@@ -1,0 +1,2 @@
+import { EncounterTemplate } from '@/game/types/encounter';
+export function EncounterPanel({encounter,onChoose,aiText}:{encounter:EncounterTemplate|null;onChoose:()=>void;aiText?:string|null}){ if(!encounter) return null; return <section className='panel' style={{padding:16}}><h3>{encounter.title}</h3><p>{encounter.description}</p><button onClick={onChoose}>{encounter.choice}</button>{aiText && <p><em>{aiText}</em></p>}</section>; }

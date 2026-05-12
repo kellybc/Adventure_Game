@@ -1,0 +1,6 @@
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: Georgia, serif; background: radial-gradient(circle at top,#2f2a24,#13110f); color:#efe3c8; }
+.panel { background: linear-gradient(160deg,#3a3023,#221b14); border:1px solid #7f6a4c; border-radius:12px; box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+button { cursor:pointer; background:#59442a; color:#f5e4bf; border:1px solid #9f875e; border-radius:8px; padding:8px 12px; }
+button:hover { filter:brightness(1.1); }
